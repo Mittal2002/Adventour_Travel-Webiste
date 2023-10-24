@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Card_heading {
+  display: flex;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.title1 {
+  font-size: 3rem;
+  margin: 6vh;
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+  border-radius: 20px;
+  padding: 1vh 5vw;
+}
+
+.container {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.diffi {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0% auto;
+}
+.butns {
+  display: flex;
+}
+.cardss {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.image {
+  width: 380px;
+  height: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.tour-info {
+  margin: 20px 5px;
+}
+
+.tour-price {
+  color: #1faa59;
+  font-size: 1rem;
+}
+
+.tour-name {
+  font-size: 1.5rem;
+}
+.description {
+  font-size: 0.8rem;
+}
+
+.read-more {
+  color: #12b0e8;
+  cursor: pointer;
+}
+.one1 {
+  margin-left: -3rem;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.one {
+  margin-left: -2rem;
+}
+.btn-red {
+  margin-top: 18px;
+  padding: 10px 80px;
+  background-repeat: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 18px;
+  text-align: center;
+  align-items: center;
+  background-color: #b4161b21;
+}
+
+.butin {
+  margin-left: -55px;
+}
+
+.butin1 {
+  margin-left: -40px;
+}
+.btns {
+  display: flex;
+}
+.btn-red:hover {
+  background-color: red;
+  color: white;
+  transition: all 0.2s;
+}
+
+.refresh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.btn-white {
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.aa {
+  margin-left: 70rem;
+  margin-top: -26rem;
+}
+.btn-white:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.2s;
+}
+
+.buttons {
+  display: flex;
+}

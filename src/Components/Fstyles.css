@@ -1,0 +1,72 @@
+.Footer {
+  padding: 4rem 6rem;
+  background: #000;
+  color: #fff;
+}
+.h2_footer {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.para_footer {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* .footer_icons a i {
+  color: white;
+  font-size: 2rem;
+} */
+.top i:hover {
+  color: #01959a;
+}
+.footer_icons a i {
+  color: white;
+}
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 1.8rem 1rem;
+}
+.bottom a {
+  text-decoration: none;
+  color: white;
+  padding-left: 1.8rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 4rem 2rem;
+  }
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+  .bottom div {
+    width: 50%;
+  }
+}
+/* .footer_icons {
+  background-color: white;
+} */
+fa-brands fa-facebook-square {
+  color: white;
+  size: 2rem;
+}

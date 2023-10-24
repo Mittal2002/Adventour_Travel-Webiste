@@ -1,0 +1,23 @@
+.homemain1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 22px;
+  font-size: 18px;
+  width: 100%;
+  gap: 10px;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+.inn {
+  padding: 10px 12px;
+  border-radius: 12px;
+  margin-left: -6rem;
+  background: #e6e8e9;
+  border: 1px solid #e6e8e9;
+  outline: none;
+  width: 70%;
+}
+.main {
+  margin-left: 40rem;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Raleway&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  /* border-sizing: border-box; */
+}
+.outerDiv {
+  position: relative;
+  background-image: url("https://wallpaperaccess.com/full/1491563.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+.Login_First_name {
+  color: #0093d9;
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  font-size: 40px;
+}
+.innerDiv {
+  width: 25%;
+  position: absolute;
+  background-color: #fbffff;
+  padding: 20px;
+  margin-top: 5%;
+  margin-left: 40%;
+  float: right;
+  border-radius: 20px;
+  height: 500px;
+}
+
+.innerDiv input {
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0px 5px 25px #ccffff;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  /* width: 100%; */
+  border: none;
+  color: white;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
+  background-image: linear-gradient(to right, #0093d9, #80ffff);
+  cursor: pointer;
+}

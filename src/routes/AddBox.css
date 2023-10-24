@@ -1,0 +1,22 @@
+.Mainn {
+  margin-top: -3.5rem;
+  height: 100vh;
+  width: 100vw;
+
+  background-image: -webkit-image-set(
+    "https://img.freepik.com/free-vector/flat-design-travel-background_23-2149193475.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696723200&semt=ais"
+  );
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.heading {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  /* margin-left: -6rem; */
+  margin-left: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}

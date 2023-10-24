@@ -1,0 +1,55 @@
+.mainn {
+  margin-left: 30rem;
+}
+.homemain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-family: Montserrat;
+  width: 40%;
+  margin-left: 2rem;
+}
+.balance {
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font: bold;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.expensecontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 20px;
+}
+.expensebox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid #e6e8e9;
+  padding: 15px 20px;
+  width: 135px;
+  font-size: 14px;
+}
+
+.expencespan1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff0000;
+}
+.expencespan2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #008000;
+}
