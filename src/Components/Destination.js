@@ -4,7 +4,6 @@ import DestinationData from "./DestinationData";
 import Mountain3 from "../Assests/5.jpg";
 import Mountain4 from "../Assests/8.jpg";
 import "./DestinationStyles.css";
-import "./DestinationData";
 const Destination = () => {
   return (
     <div className="destination">

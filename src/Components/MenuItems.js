@@ -43,7 +43,7 @@ export const MenuItems = [
   },
   {
     title: "Navigate",
-    url: "/nav",
+    url: "/Map",
     cName: "nav-links",
     icon: "fa-solid fa-user",
   },

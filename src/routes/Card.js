@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import './card.css'
 
 export default function Card({
@@ -11,7 +11,7 @@ export default function Card({
   name,
   uniqueid,
   setuniqueid,
-  removeTour
+  removeTour,
 }) {
   const [readmore, setReadmore] = useState(false);
   const description = readmore ? info : `${info.substring(0, 200)}...`;
@@ -21,6 +21,13 @@ export default function Card({
   }
   function ClickHandler() {
     SetSelectedCard();
+  }
+  let navigate = useNavigate();
+
+  function clicked() {
+    setuniqueid(id);
+    let path = `../AddTour`;
+    navigate(path);
   }
   return (
     <div className="cardss">
@@ -41,11 +48,9 @@ export default function Card({
         <button className="btn-red" onClick={() => removeTour(id)}>
           <p className="one1">Not Intersted</p>
         </button>
-        <Link to="/AddTour">
-          <button className="btn-red">
-            <p className="one">Add Tour</p>
-          </button>
-        </Link>
+        <button className="btn-red" onClick={clicked}>
+          <p className="one">Add Tour</p>
+        </button>
       </div>
     </div>
   );

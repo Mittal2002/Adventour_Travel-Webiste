@@ -12,6 +12,7 @@ import Explore from "./routes/Explore";
 import AddBox from "./routes/AddBox";
 import LiveWeather from "./routes/LiveWeather";
 import AddTour from "./routes/AddTour";
+import Map from "./routes/Map";
 import data from "./routes/Data";
 import { useState } from "react";
 export default function App() {
@@ -25,7 +26,7 @@ export default function App() {
         <Route path="/About" element={<About></About>} />
         <Route path="/Service" element={<Service></Service>} />
         <Route path="/Contact" element={<Contact></Contact>} />
-        <Route path="/nav" element={<Map></Map>}/>
+        <Route path="/Map" element={<Map></Map>} />
         <Route
           path="/Explore"
           element={<Explore uniqueid={uniqueid} setuniqueid={setuniqueid} />}

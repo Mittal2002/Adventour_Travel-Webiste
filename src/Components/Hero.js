@@ -9,7 +9,7 @@ function Hero(props) {
           <p>{props.textname}</p>
           <a href={props.url} className={props.btnClass}>
             {props.buttonText}
-          </a>{" "}
+          </a>
         </div>
       </div>
     </>

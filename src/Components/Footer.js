@@ -8,39 +8,39 @@ const Footer = () => {
         <p className="para_footer">Choose your favourite destination.</p>
       </div>
       <div className="footer_icons">
-        <a href="/">
+        <a href="https://www.facebook.com/login.php">
           <i className="fa-brands fa-facebook-square"></i>
         </a>
-        <a href="/">
+        <a href="https://www.instagram.com/?hl=en">
           <i className="fa-brands fa-instagram-square"></i>
         </a>
-        <a href="/">
+        <a href="https://www.behance.net/">
           <i className="fa-brands fa-behance-square"></i>
         </a>
-        <a href="/">
-          <i className="fa-brands fa-twitter-square"></i>
+        <a href="https://twitter.com/home">
+          <i className=""></i>
         </a>
       </div>
       <div className="bottom">
         <div>
           <h4>Projects</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Status</a>
-          <a href="/">License</a>
-          <a href="/">All Versions</a>
+          <a href="/Map">Changelog</a>
+          <a href="/Explore">Status</a>
+          <a href="about">License</a>
+          <a href="">All Versions</a>
         </div>
         <div>
           <h4>Community</h4>
           <a href="/">GitHub</a>
-          <a href="/">Issues</a>
-          <a href="/">Projects</a>
-          <a href="/">Twitter</a>
+          <a href="Map">Issues</a>
+          <a href="service">Projects</a>
+          <a href="https://twitter.com/home">Twitter</a>
         </div>
         <div>
           <h4>Help</h4>
-          <a href="/">Support</a>
-          <a href="/">Troubleshooting</a>
-          <a href="/">Contact Us</a>
+          <a href="Contact">Support</a>
+          <a href="Contact">Troubleshooting</a>
+          <a href="Map">Contact Us</a>
         </div>
       </div>
     </div>

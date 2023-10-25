@@ -4,7 +4,6 @@ import backImg from "../Assests/12.jpg";
 import Destination from "../Components/Destination";
 import Trip from "../Components/Trip";
 import Footer from "../Components/Footer";
-import Mappp from "./Mappp";
 function Home() {
   return (
     <>
@@ -15,7 +14,7 @@ function Home() {
         title="Your Journey Your Story"
         textname="Choose Your Favourite Destination"
         buttonText="Travel Plan"
-        url="/Home"
+        url="/Explore"
         btnClass="show"
       />
       <Destination />
